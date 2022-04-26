@@ -42,3 +42,5 @@ allow hal_fingerprint_default sysfs_fpc:file r_file_perms;
 
 # Allow hal_fingerprint_default to read and write to sysfs_livedisplay_tuneable
 allow hal_fingerprint_default sysfs_livedisplay_tuneable:file rw_file_perms;
+
+allow hal_fingerprint_default public_adsprpcd_file:file r_file_perms;
