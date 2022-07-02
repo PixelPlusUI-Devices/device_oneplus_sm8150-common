@@ -2,3 +2,6 @@ type vendor_db_security_prop, property_type;
 type vendor_nfc_prop, property_type;
 type vendor_param_prop, property_type;
 type vendor_dolby_loglevel_prop, property_type;
+
+# Vendor aware available type
+vendor_public_prop(deviceid_prop)
