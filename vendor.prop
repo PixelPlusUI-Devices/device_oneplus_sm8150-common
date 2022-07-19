@@ -22,6 +22,7 @@ vendor.audio.cts.media=false
 vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.enable.mirrorlink=false
 vendor.audio.flac.sw.decoder.24bit=true
+vendor.audio.feature.kpi_optimize.enable=false
 vendor.audio.hal.output.suspend.supported=false
 vendor.audio.hw.aac.encoder=true
 vendor.audio.offload.buffer.size.kb=32
