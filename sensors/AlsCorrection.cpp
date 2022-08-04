@@ -48,7 +48,7 @@ static const std::string rgbw_max_lux_paths[4] = {
     PERSIST_ENG "white_max_lux",
 };
 
-bool DEBUG = false;
+bool DEBUG = true;
 
 struct als_config {
     bool hbr;
