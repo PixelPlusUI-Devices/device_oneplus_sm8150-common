@@ -26,4 +26,5 @@ rw_dir_file(system_app, vendor_sysfs_kgsl)
 rw_dir_file(system_app, vendor_sysfs_msm_perf)
 allow system_app vendor_sysfs_msm_subsys:dir search;
 
+allow system_app sysfs_leds:dir search;
 allow system_app proc_pagetypeinfo:file r_file_perms;
