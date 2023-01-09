@@ -6,6 +6,8 @@ add_hwservice(hal_fingerprint_default, hal_performance_hwservice)
 
 allow hal_fingerprint_default vendor_hal_orms_hwservice:hwservice_manager find;
 
+allow hal_fingerprint_default vendor_hal_osense_hwservice:hwservice_manager find;
+
 allow hal_fingerprint_default fingerprint_device:chr_file rw_file_perms;
 allow hal_fingerprint_default graphics_device:chr_file rw_file_perms;
 allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
@@ -15,6 +17,8 @@ rw_dir_file(hal_fingerprint_default, vendor_sysfs_battery_supply)
 
 r_dir_file(hal_fingerprint_default, vendor_proc_fingerprint)
 r_dir_file(hal_fingerprint_default, vendor_sysfs_graphics)
+
+rw_dir_file(hal_fingerprint_default, vendor_sysfs_battery_supply)
 
 get_prop(hal_fingerprint_default, system_oplus_project_prop)
 set_prop(hal_fingerprint_default, system_fingerprint_prop)
