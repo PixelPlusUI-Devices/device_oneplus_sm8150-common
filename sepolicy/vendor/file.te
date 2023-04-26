@@ -2,7 +2,6 @@
 type vendor_proc_tri_state_key, fs_type, proc_type;
 
 # Camera
-type cam_laser_sysfs, fs_type, sysfs_type;
 type public_adsprpcd_file, file_type;
 type vendor_persist_camera_file, file_type;
 
@@ -27,19 +26,15 @@ type vendor_proc_oplus_boot, fs_type, proc_type;
 type vendor_proc_eng_cali_file, fs_type, proc_type;
 type vendor_proc_oplus_als_file, fs_type, proc_type;
 type vendor_sysfs_sensor_fb, fs_type, sysfs_type;
-type vendor_sysfs_iio, fs_type, sysfs_type;
 
 # Sync
-type sysfs_sync, fs_type, sysfs_type;
-
-# TOF
-type vendor_sysfs_tof, fs_type, sysfs_type;
-
-# Ultrasound
-type vendor_proc_ultrasound, fs_type, proc_type;
+type sysfs_sync, fs_type, sysfs_type
 
 # USB
 type vendor_sysfs_usb_data_enabled, fs_type, sysfs_type;
+
+# Ultrasound
+type vendor_proc_ultrasound, fs_type, proc_type;
 
 # Versioning
 type vendor_proc_oplus_version, fs_type, proc_type;
