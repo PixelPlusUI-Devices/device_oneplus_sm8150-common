@@ -324,9 +324,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
-    FrameworksResTarget \
+    FrameworksResCommon \
     OPlusFrameworksResCommon \
     OPlusSystemUIResCommon \
+    OPlusWifiResCommon \
+    SystemUIResCommon \
+    TelephonyResCommon \
     OPlusExtrasResCommon
 
 # Power
@@ -383,8 +386,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/oplus
+    $(LOCAL_PATH)
 
 # Telephony
 PRODUCT_PACKAGES += \
